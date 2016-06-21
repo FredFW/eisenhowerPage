@@ -1,0 +1,93 @@
+body{
+  overflow: hidden;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#wrapper{
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#scroller{
+  position: absolute;
+}
+
+.container-fluid, .row{
+  margin: 0 auto;
+  padding: 0;
+}
+
+img{
+  width: 100%;
+  display: block;
+}
+
+p{
+  font-size: 1.5em;
+}
+
+#heading{
+  background-color: lightblue;
+  margin: 0;
+  font-weight: 800;
+}
+
+#profilePic{
+  padding: 2em;
+}
+
+#profile{
+  padding: 2em;
+}
+
+.desPic, .desWord{
+  padding: 2em;
+}
+
+.pic{
+  height: 80vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.subHead{
+  position: absolute;
+  top: 50%;
+  right: 70%;
+  bottom: 50%;
+  left: 30%;
+  color: white;
+  font-weight: bold;
+}
+
+#link{
+  background-color: lightblue;
+  margin: 0;
+  text-align: center;
+  padding: 1em;
+}
+
+blockquote p{
+  font-size: 1em;
+}
+
+.opt10{
+  opacity: 0.2;
+  transition: all 1.5s;
+}
+
+#indicator{
+  z-index: 5;
+  position: fixed;
+  color: blue;
+  top: 2em;
+  font-size: 2em;
+}
