@@ -81,6 +81,7 @@ blockquote p{
 
 .opt10{
   opacity: 0.2;
+  -webkit-transition: all 1.5s;
   transition: all 1.5s;
 }
 
